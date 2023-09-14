@@ -25,21 +25,144 @@ code {
   color: #000;
 }
 
-.input-info{
-  display: flex;
-  flex-direction: row;
-  white-space: nowrap;
-  align-items: center;
-}
-
 .input-info input{
-  width: 70%;
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #ccc;
   outline: none;
 }
 
+.input-info form {
+  display: flex;
+  flex-direction: row;
+}
+
 .submitBtn {
-  width: 10%;
+  cursor: pointer;
+}
+
+.submitBtn:hover {
+  background: #ccc;
+}
+
+.submitBtn:active {
+  background: #aaa;
+}
+
+.Block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.Block:hover {
+  background: #eee;
+}
+
+.Block button {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  outline: none;
+  background: transparent;
+  border-radius: 10px;
+}
+
+.Block button:hover {
+  background: #ccc;
+}
+
+.Block button:active {
+  background: #aaa;
+}
+
+.Block img {
+  width: 1.5rem;
+}
+
+.costEl{
+  color: #aaa;
+}
+
+.payEl {
+  font-weight: 700;
+}
+
+.alert {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 1em;
+  margin: 1em;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0;
+  animation: fadeInOut 4s forwards;
+  z-index: 1000;
+}
+
+.alert-success {
+  background-color: rgb(105, 219, 105);
+  color: white;
+  font-weight: bold;
+}
+
+.alert-warning {
+  background-color: rgb(224, 184, 109);
+  color: white;
+  font-weight: bold;
+}
+
+.alert-error {
+  background-color: rgb(210, 85, 85);
+  color: white;
+  font-weight: bold;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.clearAllBtn{
+  cursor: pointer;
+  border: 1px solid #ccc;
+  outline: none;
+  background: transparent;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.clearAllBtn:hover {
+  background: #ccc;
+}
+
+.clearAllBtn:active {
+  background: #aaa;
+}
+
+.totalCostDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
 }

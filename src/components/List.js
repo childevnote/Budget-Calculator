@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import ListItem from './ListItem';
 
-export default function List() {
+function List({ budgetData, onEdit, onRemove }) {
   return (
     <div>
-      
+      {budgetData.map((data) => (
+        <ListItem key={data.id} data={data} onEdit={onEdit} onRemove={onRemove} />
+      ))}
     </div>
-  )
+  );
 }
+
+export default List;
