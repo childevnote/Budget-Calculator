@@ -33,4 +33,4 @@
 <img src="src\assets\images\1.gif">
 
 <summary><h2>최종 결과</h2></summary>
-<img src="src\assets\images\2.gif">
+<img src="src\assets\images\3.gif">
