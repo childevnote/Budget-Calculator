@@ -1,5 +1,5 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=childevnote&fontSize=90" />
-<h2>개인 프로젝트 : Speadsheet</h2>
+<h2>개인 프로젝트 : Budget Calculator</h2>
 <summary><h2>사용 스택</h2></summary> 
 <div>
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white" />
@@ -28,9 +28,6 @@
 
 </div>
 </details>
-
-<summary><h2>기대 결과</h2></summary>
-<img src="src\assets\images\1.gif">
 
 <summary><h2>최종 결과</h2></summary>
 <img src="src\assets\images\3.gif">
